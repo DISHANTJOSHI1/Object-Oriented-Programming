@@ -31,7 +31,7 @@ person.setType('Old Guy')
 // we can override properties of super class by using extend keyword
 
 class Dishant extends Person {
-    name: 'Dishant';
+    name: 'Ram';
     age: 22; //Doubt ????????????????? age is protected in the super class.. Why no error here?  
 
     constructor(username:string){     // if making another constructor in sub class then need to write super key
